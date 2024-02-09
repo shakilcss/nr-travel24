@@ -56,3 +56,718 @@ nav i {
     color: black;
     text-decoration: none;
 }
+
+.container-1 {
+    width: 1170px;
+    height: 500px;
+    margin: 60px auto;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/Group13.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+    border-radius: 16px;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.header h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.header p {
+    color: #d1caca;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -20px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.selection {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 20px auto;
+    border: none;
+    outline: none;
+}
+
+.box-1 {
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    outline: none;
+}
+
+.box-2 {
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    outline: none;
+}
+
+.box-3 {
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    outline: none;
+}
+
+.box-4 {
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    outline: none;
+}
+
+.selection img {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.container-2 {
+    display: flex;
+    width: 1170px;
+    height: auto;
+    margin: 90px auto;
+}
+
+.popular-package h1 {
+    color: #131318;
+    width: 577px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.popular-package p {
+    color: rgba(19, 19, 24, 0.70);
+    width: 577px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.popular-package li {
+    color: rgba(19, 19, 24, 0.70);
+    width: 525px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.popular-package button {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+.pp-no-1 img {
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+    margin-left: 52px;
+}
+
+.container-3 {
+    width: 1170px;
+    height: auto;
+    margin: 90px auto;
+}
+
+.destination-container-1 h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0;
+}
+
+.destination-container-1 p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 26px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.first-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.image-container-1 {
+    width: 573px;
+    height: 300px;
+    display: flex;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../images/maldives.png');
+}
+
+.image-container-2 {
+    width: 573px;
+    height: 300px;
+    display: flex;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../images/indonesia.png');
+}
+
+.second-row {
+    display: grid;
+    gap: 20px;
+    margin-top: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.image-container-3 {
+    width: 374px;
+    height: 286px;
+    display: flex;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../images/srilanka.png');
+}
+
+.image-container-4 {
+    width: 474px;
+    height: 286px;
+    display: flex;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../images/north-america.png');
+}
+
+.image-container-5 {
+    width: 274px;
+    height: 286px;
+    display: flex;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../images/kashmir.png');
+}
+
+
+.third-row {
+    display: grid;
+    gap: 10px;
+    margin-top: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image-container-6 {
+    width: 473px;
+    height: 300px;
+    display: flex;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../images/bangladesh.png');
+}
+
+.image-container-7 {
+    width: 673px;
+    height: 300px;
+    display: flex;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../images/bandarban.png');
+}
+
+.image-text-1 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-text-2 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-text-3 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-text-4 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-text-5 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-text-6 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-text-7 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.container-4 {
+    width: 1170px;
+    height: auto;
+    margin: 90px auto;
+}
+
+.destination-container-2 h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.destination-container-2 p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -10px;
+    padding-bottom: 20px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.three-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.first-card {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.first-card img {
+    width: 64px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.first-card h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.first-card p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 26px;
+}
+
+.second-card {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.second-card img {
+    width: 64px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.second-card h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.second-card p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 26px;
+}
+
+.third-card {
+    width: 573px;
+    height: 284px;
+    margin-top: 20px;
+    margin-left: 290px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.third-card img {
+    width: 64px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.third-card h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.third-card p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 26px;
+}
+
+.bonus-point {
+    width: 1170px;
+    height: auto;
+    margin: 90px auto;
+}
+
+
+.dd-comment h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.dd-comment p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: -20px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.malay-hotel-01 {
+    width: 1170px;
+    height: 500px;
+    margin: 60px auto;
+    background: lightgray 50%;
+    background-image: url('../images/malay-hotel.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: end;
+}
+
+.insight {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-right: 50px;
+}
+
+.offers-mh {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.t i {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    color: #FF5400;
+}
+
+.t {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.p i {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    color: #FF5400;
+}
+
+.p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.l i {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    color: #FF5400;
+}
+
+.l {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+.text-price h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 45px;
+}
+
+.text-price p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 45px;
+    margin-right: 60px;
+}
+
+.text-price h3 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 45px;
+}
+
+.text-price button {
+    width: 150px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 45px;
+}
+
+
+.maldive-hotel {
+    width: 1170px;
+    height: 500px;
+    margin: 60px auto;
+    margin-top: -40px;
+    background: lightgray 50%;
+    background-image: url('../images/maldive-hotel.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    border-radius: 16px;
+    flex-direction: column;
+}
+
+.insight-01 {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-left: 50px;
+}
+
+.malay-hotel-02 {
+    width: 1170px;
+    height: 500px;
+    margin: 60px auto;
+    background: lightgray 50%;
+    background-image: url('../images/malay-hotel.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    margin-top: -40px;
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: end;
+}
+
+.all-packages button {
+    color: #FFF;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-left: 40%;
+    border: none;
+}
+
+.container-8 {
+    display: flex;
+    width: 1170px;
+    margin: 60px auto;
+    margin-top: 0;
+}
+
+.simple-pp {
+    height: 424px;
+}
+
+.simple-pp h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 50px;
+}
+
+.simple-pp p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 20px;
+}
+
+.simple-pp li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-right: 30px;
+}
+
+.li-01 {
+    margin-left: 22px;
+}
+
+.li-02 {
+    margin-left: 22px;
+}
+
+.simple-pp button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    width: 174px;
+    height: 52px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;
+}
